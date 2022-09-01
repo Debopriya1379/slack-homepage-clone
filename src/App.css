@@ -6,3 +6,14 @@
 body {
   overflow-x: hidden;
 }
+
+/* @media (max-width: 1000px){
+  body {
+    font-size: 12px;
+  }
+}
+@media (max-width: 750px){
+  body {
+    font-size: 8px;
+  }
+} */

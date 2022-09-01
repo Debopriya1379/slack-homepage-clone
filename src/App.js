@@ -7,21 +7,21 @@ function App() {
       <header>
         <nav>
           <div className="nav_left">
-            <ul>
+            <ul className='hide'>
               <li>
                 <img src="data:image/png;base64,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" alt="slack logo" />
               </li>
-              <li>Product</li>
-              <li>Solutions</li>
-              <li>Enterprice</li>
-              <li>Resources</li>
-              <li>Pricing</li>
+              <li><p>Product</p></li>
+              <li><p>Solutions</p></li>
+              <li><p>Enterprice</p></li>
+              <li><p>Resources</p></li>
+              <li><p>Pricing</p></li>
             </ul>
           </div>
           <div className="nav_right">
-            <ul>
-              <li>Search</li>
-              <li>Sign in</li>
+            <ul className='hide'>
+              <li><p>Search</p></li>
+              <li><p>Sign in</p></li>
               <li>
                 <button className='btn1'>Talk To Sales</button>
               </li>
@@ -213,55 +213,57 @@ function App() {
         </div>
       </section>
       <section className='footerSec'>
+        <div className="logo">
+          <img src="data:image/png;base64,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" alt="slack logo" />
+        </div>
         <ul>
-          <li><img src="data:image/png;base64,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" alt="slack logo" /></li>
           <li>
             <h2>WHY SLACK</h2>
             <ul>
-              <li>Slack vs email</li>
-              <li>Channels</li>
-              <li>Engagement</li>
-              <li>Scale</li>
-              <li>Watch the demo</li>
+              <li><p>Slack vs email</p></li>
+              <li><p>Channels</p></li>
+              <li><p>Engagement</p></li>
+              <li><p>Scale</p></li>
+              <li><p>Watch the demo</p></li>
             </ul>
           </li>
           <li>
             <h2>PRODUCT</h2>
             <ul>
-              <li>Features</li>
-              <li>Integrations</li>
-              <li>Enterprise</li>
-              <li>Solutions</li>
+              <li><p>Features</p></li>
+              <li><p>Integrations</p></li>
+              <li><p>Enterprise</p></li>
+              <li><p>Solutions</p></li>
             </ul>
           </li>
           <li>
             <h2>PRICING</h2>
             <ul>
-              <li>Subscriptions</li>
-              <li>Paid vs free</li>
+              <li><p>Subscriptions</p></li>
+              <li><p>Paid vs free</p></li>
             </ul>
           </li>
           <li>
             <h2>RESOURCES</h2>
             <ul>
-              <li>Partners</li>
-              <li>Developers</li>
-              <li>Community</li>
-              <li>Apps</li>
-              <li>Blog</li>
-              <li>Help Center</li>
-              <li>Events</li>
+              <li><p>Partners</p></li>
+              <li><p>Developers</p></li>
+              <li><p>Community</p></li>
+              <li><p>Apps</p></li>
+              <li><p>Blog</p></li>
+              <li><p>Help Center</p></li>
+              <li><p>Events</p></li>
             </ul>
           </li>
           <li>
             <h2>COMPANY</h2>
             <ul>
-              <li>About us</li>
-              <li>Leadership</li>
-              <li>Investor relatios</li>
-              <li>News</li>
-              <li>Media kit</li>
-              <li>Careers</li>
+              <li><p>About us</p></li>
+              <li><p>Leadership</p></li>
+              <li><p>Investor relatios</p></li>
+              <li><p>News</p></li>
+              <li><p>Media kit</p></li>
+              <li><p>Careers</p></li>
             </ul>
           </li>
         </ul>
@@ -304,6 +306,12 @@ const Container = styled.div`
   width: 100vw;
   max-width: 100vw;
   min-height: 100vh;
+  @media (max-width: 1000px){
+    font-size: 14px;
+  }
+  @media (max-width: 750px){
+    font-size: 12px;
+  }
   button {
     padding: .7rem 1.2rem;
     border: none;
@@ -331,16 +339,17 @@ const Container = styled.div`
   header {
     background-color: #4A154B;
     max-width: 100%;
-    height: 75vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     nav {
-      width: 100%;
-      height: 100px;
+      width: 90%;
+      min-height: 100px;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
+      /* background-color: #4285f4; */
       img {
         width: 180px;
       }
@@ -355,9 +364,19 @@ const Container = styled.div`
         font-weight: bold;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        @media (max-width: 1100px){
+          display: none;
+        }
         li {
           padding: 3px 10px;
           cursor: pointer;
+          font-size: 12px;
+            @media (max-width: 1300px){
+              font-size: 11px;
+            }
+          p{
+            font-size: 1.3em;
+          }
         }
       }
     } 
@@ -372,9 +391,19 @@ const Container = styled.div`
           font-weight: bold;
           color: white;
           font-family: Arial, Helvetica, sans-serif;
+          @media (max-width: 1100px){
+            display: none;
+          }
           li {
             padding: 3px 10px;
             cursor: pointer;
+            font-size: 12px;
+            @media (max-width: 1300px){
+              font-size: 11px;
+            }
+            p{
+              font-size: 1.3em;
+            }
           }
         }
       }
@@ -386,28 +415,65 @@ const Container = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    @media (max-width: 750px){
+      font-size: 10px;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
     .links {
-      width: 100%;
-      margin-left: 8rem;
+      width: 90%;
+      margin-left: 7rem;
       display: flex;
       flex-direction: column;
       align-items: left;
       gap: 2rem;
       color: white;
+      @media (max-width: 1500px){
+        margin-left: 4rem;
+      }
+      @media (max-width: 1300px){
+        margin-left: 2rem;
+      }
+      @media (max-width: 1000px){
+        width: 100%;
+        margin: 0 auto;
+      }
+      @media (max-width: 750px){
+        width: 90%;
+        align-items: center;
+        margin: 0 auto;
+      }
       h1{
-        font-size: 60px;
+        font-size: 3.6rem;
         text-align: left;
+        @media (max-width: 1300px){
+          font-size: 3rem;
+        }
+        @media (max-width: 750px){
+          font-size: 3.1rem;
+          text-align: center;
+        }
       }
       p {
-        font-size: 20px;
+        font-size: 1.2rem;
         font-weight: 600;
       }
       #yellow_color {
         color: #ecb22e;
       }
       .signup_links {
+        width: 90%;
         display: flex;
         gap: .5rem;
+        @media (max-width: 750px){
+          flex-direction: column;
+        }
+        button {
+          @media (max-width: 1000px){
+            width: 100%;
+            padding: .6rem 1.2rem;
+          }
+        }
         .google_signup {
           background-color: #4285f4;
           border-radius: 3px;
@@ -420,7 +486,7 @@ const Container = styled.div`
             color: white;
           }
           img {
-            width: 43px;
+            width: 3rem;
             margin: 4px;
             border-radius: 3px;
           }
@@ -429,11 +495,27 @@ const Container = styled.div`
     }
     video {
       width: 95%;
+      @media (max-width: 1000px){
+        width: 150%
+      }
+      @media (max-width: 750px){
+        width: 100%;
+        padding: 1rem 0;
+      }
     }
     ._video {
       display: flex;
       align-items: center;
       justify-content: end;
+      @media (max-width: 1000px){
+        width: 100%;
+        margin: 0 auto;
+        margin-right: -60%;
+      }
+      @media (max-width: 750px){
+        width: 90%;
+        margin: 0 auto;
+      }
     }
     }
   }
@@ -453,6 +535,12 @@ const Container = styled.div`
       width: 60%;
       display: flex;
       align-items: center;
+      @media (max-width: 1000px){
+        width: 70%;
+      }
+      @media (max-width: 750px){
+        width: 80%;
+      }
       ul {
         width: 100%;
         display: flex;
@@ -462,33 +550,46 @@ const Container = styled.div`
         li {
           padding: 10px 10px;
           cursor: pointer;
+          img {
+            max-width: 100%;
+          }
         }
       }
     }
     .subSecOne,.subSecTwo,.subSecThree {
       width: 80%;
       display: flex;
-      display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 2.5rem 0;
       font-family: Arial, Helvetica, sans-serif;
+      @media (max-width: 1000px){
+        width: 100%;
+        flex-direction: column;
+      }
       .video_sec {
         width: 100%;
         video {
-          width: 75%;
+          width: 80%;
         }
       }
       .text_sec {
-        width: 60%;
+        width: 55%;
+        font-size: 13px;
+        margin: 1em 0;
+        @media (max-width: 1000px){
+          font-size: 11px;
+          align-self: flex-end;
+          padding: 0 1rem;
+        }
         h1{
-        font-size: 50px;
+        font-size: 3.3em;
         text-align: left;
         }
         p {
-          font-size: 17px;
+          font-size: 1.5em;
           font-weight: 400;
-          line-height: 28px;
+          line-height: 1.7rem;
         }
       }
     }
@@ -496,6 +597,12 @@ const Container = styled.div`
       .video_sec {
         display: flex;
         justify-content: flex-end;
+      }
+      .text_sec{
+        @media (max-width: 1000px){
+          align-self: flex-start;
+          padding: 0 1rem;
+        }
       }
     }
   }
@@ -512,11 +619,16 @@ const Container = styled.div`
       flex-direction: column;
       align-items: center;
       gap: 2rem;
+      @media (max-width: 1000px){
+          width: 80%;
+          font-size: 10px;
+      }
       h1 {
-        font-size: 50px;
+        font-size: 3.2em;
       }
       p {
-        font-size: 18px;
+        text-align: center;
+        font-size: 1.3em;
         font-weight: 500;
       }
       .link_buttons {
@@ -528,9 +640,17 @@ const Container = styled.div`
       }
     }
     .stats {
-      width: 65%;
-      /* background-color: #4285f4; */
+      width: 60%;
       padding: 4rem 0;
+      font-size: 12px;
+      @media (max-width: 1000px){
+        width: 70%;
+        font-size: 10px;
+      }
+      @media (max-width: 750px){
+        font-size: 7px;
+        width: 80%;
+      }
       ul {
         width: 100%;
         list-style: none;
@@ -542,11 +662,11 @@ const Container = styled.div`
           flex-direction: column;
           align-items: flex-start;
           h1 {
-            font-size: 60px;
+            font-size: 3.8em;
             color: #4A154B;
           }
           p {
-            font-size: 15px;
+            font-size: 1.6em;
             font-weight: 600;
           }
         }
@@ -558,11 +678,17 @@ const Container = styled.div`
       grid-template-columns: 1fr 1fr;
       gap: 3rem;
       padding: 1rem 0;
+      @media (max-width: 1000px){
+        grid-template-columns: 1fr;
+      }
       .video_sec {
         width: 100%;
         video {
           width: 100%;
           border-radius:0% 31% 23% 0% / 42% 49% 48% 43% ;
+          @media (max-width: 1000px){
+            width: 95%;
+          }
         }
       }
       .text_sec {
@@ -571,24 +697,28 @@ const Container = styled.div`
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
+        @media (max-width: 1000px){
+          padding: 1rem;
+        }
         h1 {
-          font-size: 30px;
+          font-size: 1.8rem;
           font-weight: 100;
           font-style: italic;
           line-height: 40px;
         }
         p {
-          font-size: 20px;
+          font-size: 1.3rem;
         }
       }
     }
     .short_note {
-      width: 100%;
+      width: 90%;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 2rem 0;
-      font-size: 15px;
+      font-size: .9rem;
+      text-align: center;
     }
   }
   .sectionFour {
@@ -600,21 +730,30 @@ const Container = styled.div`
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     h1 {
-      font-size: 30px;
-      margin-top: 1rem;
+      font-size: 2em;
+      margin-top: 1em;
+      text-align: center;
     }
     .cards_sec {
       width: 80%;
-      margin: 2rem 0;
+      margin: 2rem auto;
       padding: .6rem;
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
       gap: 2rem;
+      @media (max-width: 1200px){
+        width: 65%;
+      }
+      @media (max-width: 750px){
+        width: 40%;
+        grid-template-columns: 1fr;
+      }
       h2 {
-        font-size: 20px;
+        font-size: 1.2rem;
       }
       .cards {
-        width: calc(((100vh*60)/100));
+        /* width: calc(((100vh*60)/100)); */
+        /* width: 80%; */
         height: 400px;
         /* border: 1px solid black; */
         display: flex;
@@ -629,7 +768,7 @@ const Container = styled.div`
           align-items: center;
           p{
             cursor: pointer;
-            font-size: 15px;
+            font-size: 1rem;
             font-weight: 600;
           }
         }
@@ -639,7 +778,6 @@ const Container = styled.div`
           display: flex;
           flex-direction: column;
           gap: 6px;
-          /* background-color: #4285f4; */
         }
       }
       .cardOne {
@@ -674,8 +812,15 @@ const Container = styled.div`
     color: white;
     gap: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+    @media (max-width: 1000px){
+      font-size: 14px;
+    }
+    @media (max-width: 750px){
+      font-size: 12px;
+    }
     h1 {
-      font-size: 50px;
+      font-size: 3.2em;
+      text-align: center;
     }
     .button_sec {
       width: 100%;
@@ -683,8 +828,14 @@ const Container = styled.div`
       align-items: center;
       justify-content: center;
       gap: 1rem;
+      @media (max-width: 750px){
+        flex-direction: column;
+      }
       button {
         padding: 1.1rem 2rem;
+        @media (max-width: 750px){
+          width: 70%;
+        }
       }
     }
   }
@@ -692,21 +843,32 @@ const Container = styled.div`
     padding: 2rem 0;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    @media (max-width: 1000px){
+      width: 100%;
+      font-size: 14px;
+    }
+    @media (max-width: 750px){
+      font-size: 12px;
+    }
     hr {
       color: black;
       margin: 2rem 0;
+      @media (max-width: 750px){
+        width: 90%;
+      }
     }
     h2{
-      font-size: 15px;
+      font-size: 1em;
       padding: 1rem 0;
     }
     img {
-      width: 150px;
+      width: 8em;
     }
     ul {
       width: 80%;
@@ -720,7 +882,16 @@ const Container = styled.div`
           flex-direction: column;
           list-style: none;
           gap: 1rem;
-          font-size: 15px;
+          font-size: 1rem;
+          @media (max-width: 1000px){
+            font-size: 14px;
+          }
+          @media (max-width: 750px){
+            font-size: 12px;
+          }
+          p{
+            font-size: 1em;
+          }
         }
       }
     }
@@ -730,14 +901,24 @@ const Container = styled.div`
       align-items: center;
       justify-content: space-between;
       font-size: 15px;
+      @media (max-width: 750px){
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 12px;
+        gap: 1rem;
+      }
       h3 {
-        font-size: 14px;
+        font-size: 1em;
       }
       .links_left {
         width: 40%;
         ul {
           width: 100%;
           display: flex;
+          @media (max-width: 750px){
+            flex-direction: column;
+          }
           li {
             width: 100%;
           }
@@ -749,15 +930,25 @@ const Container = styled.div`
         align-items: center;
         justify-content: space-between;
         gap: .5rem;
+        @media (max-width: 750px){
+            flex-direction: column;
+        }
         ul {
           width: 50%;
           display: flex;
           align-items: center;
           gap: 0;
+          @media (max-width: 750px){
+            width: 100%;
+          }
         }
         img {
-          width: 20px;
+          width: 1em;
           cursor: pointer;
+          @media (max-width: 750px){
+            width: 2em;
+            margin-right: 1em;
+        }
         }
         p {
           color: #4285f4;
@@ -776,8 +967,11 @@ const Container = styled.div`
       display: flex;
       align-items: center;
       padding: 2rem 0;
+      @media (max-width: 750px){
+        width: 90%;
+      }
       p {
-        font-size: 13px;
+        font-size: .8rem;
       }
     }
   }

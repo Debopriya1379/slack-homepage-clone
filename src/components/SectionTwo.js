@@ -116,6 +116,7 @@ const Container = styled.div`
       font-size: 13px;
       margin: 1em 0;
       @media (max-width: 1000px){
+        width: 80%;
         font-size: 11px;
         align-self: flex-end;
         padding: 0 1rem;

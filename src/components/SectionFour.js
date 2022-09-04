@@ -88,6 +88,8 @@ const Container = styled.div`
     @media (max-width: 750px){
       width: 40%;
       grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
     }
     h2 {
       font-size: 1.2rem;

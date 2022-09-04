@@ -58,6 +58,7 @@ const Container = styled.div`
       width: 90%;
       align-items: center;
       margin: 0 auto;
+      text-align: center;
     }
     h1{
       font-size: 3.6rem;

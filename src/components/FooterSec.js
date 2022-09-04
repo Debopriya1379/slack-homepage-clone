@@ -100,7 +100,7 @@ const Container = styled.div`
   justify-content: center;
   margin: 0 auto;
   @media (max-width: 1000px){
-    width: 100%;
+    max-width: 100%;
     font-size: 14px;
   }
   @media (max-width: 750px){
@@ -125,6 +125,9 @@ const Container = styled.div`
     display: flex;
     gap: 1rem;
     list-style: none;
+    @media (max-width: 750px){
+      flex-direction: column;
+    }
     li {
       width: 100%;
       ul {
@@ -152,7 +155,7 @@ const Container = styled.div`
     justify-content: space-between;
     font-size: 15px;
     @media (max-width: 750px){
-      width: 90%;
+      /* width: 90%; */
       flex-direction: column;
       align-items: flex-start;
       font-size: 12px;
@@ -189,6 +192,8 @@ const Container = styled.div`
         align-items: center;
         gap: 0;
         @media (max-width: 750px){
+          margin-top:10px;
+          flex-direction: row;
           width: 100%;
         }
       }
@@ -205,6 +210,7 @@ const Container = styled.div`
         font-weight: 500;
       }
       .download {
+        margin-left: 20px;
         display: flex;
         align-items: center;
         gap: .3rem;

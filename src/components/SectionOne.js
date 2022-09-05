@@ -103,7 +103,7 @@ const Container = styled.div`
           color: white;
         }
         img {
-          width: 3rem;
+          width: 2.5rem;
           margin: 4px;
           border-radius: 3px;
         }

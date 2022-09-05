@@ -57,6 +57,11 @@ const Container = styled.div`
   align-items: center;
   padding: 5rem 0;
   font-family: Arial, Helvetica, sans-serif;
+  @media (max-width: 1000px){
+    padding:0;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+  }
   .links {
     width: 60%;
     display: flex;

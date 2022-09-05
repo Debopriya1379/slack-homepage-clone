@@ -64,6 +64,9 @@ const Container = styled.div`
   align-items: center;
   padding: 3rem 0;
   background-color: #f4ede4;
+  @media (max-width: 750px){
+    padding: 1.5rem 0;
+  }
   p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -73,11 +76,14 @@ const Container = styled.div`
     width: 60%;
     display: flex;
     align-items: center;
+    margin:auto;
     @media (max-width: 1000px){
       width: 70%;
     }
     @media (max-width: 750px){
-      width: 80%;
+      width: 90%;
+      max-width: 95%;
+      padding-bottom: 1rem;
     }
     ul {
       width: 100%;
@@ -104,6 +110,9 @@ const Container = styled.div`
     @media (max-width: 1000px){
       width: 100%;
       flex-direction: column;
+    }
+    @media (max-width: 750px){
+      padding: 0rem 0;
     }
     .video_sec {
       width: 100%;
@@ -133,6 +142,10 @@ const Container = styled.div`
     }
   }
   .subSecTwo {
+    @media (max-width: 750px){
+        padding: 0px 0px;
+        padding-bottom: 2rem;
+    }
     .video_sec {
       display: flex;
       justify-content: flex-end;

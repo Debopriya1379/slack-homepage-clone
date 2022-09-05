@@ -30,6 +30,7 @@ const Container = styled.div`
   }
   @media (max-width: 750px){
     font-size: 12px;
+    margin-bottom: 1rem;
   }
   h1 {
     font-size: 3.2em;

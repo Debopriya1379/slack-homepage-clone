@@ -104,6 +104,14 @@ const Container = styled.div`
       justify-content: space-between;
       align-items: center;
       padding: 10px 0;
+      .pic_sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          margin: 1px 10px;
+        }
+      }
       .link_sec {
         width: 90%;
         display: flex;
